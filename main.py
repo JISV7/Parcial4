@@ -1,3 +1,5 @@
+# Alejandro Lopez 30914440
+# Jose Sanchez 30958324
 import numpy as np
 import os
 # python -m venv .env
