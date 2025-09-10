@@ -1,22 +1,19 @@
 class Programador:
     """Un programador con sus atributos."""
-    def __init__(self, nombre, habilidades, disponibilidad):
+    def __init__(self, nombre, habilidades):
         self.nombre = nombre
         self.habilidades = habilidades
-        self.disponibilidad = disponibilidad
 
     def __str__(self):
-        return f"Programador: {self.nombre} (Habilidades: {', '.join(self.habilidades)}, Disponibilidad: {self.disponibilidad}h/sem)"
+        return f"Programador: {self.nombre} (Habilidades: {', '.join(self.habilidades)})"
 
 class Tarea:
     """Una tarea con sus atributos."""
-    def __init__(self, nombre, complejidad, prioridad):
+    def __init__(self, nombre):
         self.nombre = nombre
-        self.complejidad = complejidad
-        self.prioridad = prioridad
 
     def __str__(self):
-        return f"Tarea: {self.nombre} (Complejidad: {self.complejidad}, Prioridad: {self.prioridad})"
+        return f"Tarea: {self.nombre}"
 
 class Sede:
     """Una sede o proyecto con sus atributos."""
